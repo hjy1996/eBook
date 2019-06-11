@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorYellow1"
+    android:padding="15dp"
+    tools:context="com.example.apple.ebook.EditInfoActivity">
+
+<RelativeLayout
+    android:id="@+id/out1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frame">
+    <LinearLayout
+        android:id="@+id/text1"
+        android:background="@drawable/frame"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系方式:"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/recontact"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/text2"
+        android:background="@drawable/frame"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_below="@+id/text1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="住址:"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp" />
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/readdress"
+            android:textSize="25sp"/>
+    </LinearLayout>
+</RelativeLayout>
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/out1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="保存"
+        android:background="@drawable/click_btn"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

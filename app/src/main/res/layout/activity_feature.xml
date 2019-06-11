@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow1"
+    tools:context=".FeatureActivity">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/frame"
+    android:layout_centerInParent="true">
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="230dp"
+        android:id="@+id/out1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp">
+
+        <Button
+            android:id="@+id/feature_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feature_btn"
+            android:text="书城"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="230dp"
+        android:id="@+id/out2"
+        android:layout_toRightOf="@+id/out1"
+        android:layout_marginRight="5dp">
+
+        <Button
+            android:id="@+id/feature_bookshelf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feature_btn"
+            android:text="我的书架"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/out3"
+        android:layout_toRightOf="@+id/out2"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/feature_mylease"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feature_btn"
+            android:text="我租的书"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/out4"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/out2"
+        android:layout_below="@+id/out3"
+        android:layout_marginBottom="5dp">
+        <Button
+            android:id="@+id/feature_myborrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feature_btn"
+            android:text="我借的书"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/out5"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/out1">
+
+        <Button
+            android:id="@+id/feature_myinfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feature_btn"
+            android:text="我的信息"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/out6"
+        android:layout_width="130dp"
+        android:layout_height="115dp"
+        android:layout_alignBottom="@+id/out5"
+        android:layout_below="@+id/out4"
+        android:layout_toRightOf="@+id/out5"
+        android:layout_marginLeft="5dp">
+
+        <Button
+            android:id="@+id/feature_admin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/feature_btn"
+            android:text="管理员"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/feature_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:text="关于eBook"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialog">
+
+    <LinearLayout
+        android:id="@+id/out1"
+        android:background="@drawable/frame"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="             确认归还"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:background="@drawable/frame"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/yes"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="是"
+                android:textSize="20sp" />
+            <View
+                android:background="@color/colorBlack"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/no"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="否"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

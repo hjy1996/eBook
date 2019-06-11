@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/frame"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/adminid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="序号"
+            android:textSize="25sp"
+            android:textColor="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/adminname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textSize="25sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorBlack"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

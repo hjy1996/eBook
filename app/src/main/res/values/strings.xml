@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">eBook</string>
+    <string name="user_name">用户</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_bookshelf_fragment">Hello bookshelf fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_personal_fragment">Hello personal fragment</string>
+</resources>
